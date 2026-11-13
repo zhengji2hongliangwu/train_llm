@@ -1,0 +1,88 @@
+{
+    "move_distance_1013": {
+        "dataset_path": "/workspace/llm/dataset/datasetfinetuning/dataset/dataset_toolcall/move_distance_1013.jsonl",
+        "preprocess": "custom",
+        "split_dataset_ratio": 0.0,
+        "channel": "tool"
+    },
+    "stop_1013": {
+        "dataset_path": "/workspace/llm/dataset/datasetfinetuning/dataset/dataset_toolcall/stop_1013.jsonl",
+        "preprocess": "custom",
+        "split_dataset_ratio": 0.0,
+        "channel": "tool"
+    },
+    "mute_1013": {
+        "dataset_path": "/workspace/llm/dataset/datasetfinetuning/dataset/dataset_toolcall/mute_1013.jsonl",
+        "preprocess": "custom",
+        "split_dataset_ratio": 0.0,
+        "channel": "tool"
+    },
+    "navigation_1013": {
+        "dataset_path": "/workspace/llm/dataset/datasetfinetuning/dataset/dataset_toolcall/navigation_1013.jsonl",
+        "preprocess": "custom",
+        "split_dataset_ratio": 0.0,
+        "channel": "tool"
+    },
+    "gesture_1013": {
+        "dataset_path": "/workspace/llm/dataset/datasetfinetuning/dataset/dataset_toolcall/gesture_1013.jsonl",
+        "preprocess": "custom",
+        "split_dataset_ratio": 0.0,
+        "channel": "tool"
+    },
+    "weather_1013": {
+        "dataset_path": "/workspace/llm/dataset/datasetfinetuning/dataset/dataset_toolcall/weather_1013.jsonl",
+        "preprocess": "custom",
+        "split_dataset_ratio": 0.0,
+        "channel": "tool"
+    },
+    "move_1013": {
+        "dataset_path": "/workspace/llm/dataset/datasetfinetuning/dataset/dataset_toolcall/move_1013.jsonl",
+        "preprocess": "custom",
+        "split_dataset_ratio": 0.0,
+        "channel": "tool"
+    },
+    "safety_reminder_1013": {
+        "dataset_path": "/workspace/llm/dataset/datasetfinetuning/dataset/dataset_toolcall/safety_reminder_1013.jsonl",
+        "preprocess": "custom",
+        "split_dataset_ratio": 0.0,
+        "channel": "tool"
+    },
+    "security_check_1013": {
+        "dataset_path": "/workspace/llm/dataset/datasetfinetuning/dataset/dataset_toolcall/security_check_1013.jsonl",
+        "preprocess": "custom",
+        "split_dataset_ratio": 0.0,
+        "channel": "tool"
+    },
+    "rotation_1013": {
+        "dataset_path": "/workspace/llm/dataset/datasetfinetuning/dataset/dataset_toolcall/rotation_1013.jsonl",
+        "preprocess": "custom",
+        "split_dataset_ratio": 0.0,
+        "channel": "tool"
+    },
+    "initialize_1013": {
+        "dataset_path": "/workspace/llm/dataset/datasetfinetuning/dataset/dataset_toolcall/initialize_1013.jsonl",
+        "preprocess": "custom",
+        "split_dataset_ratio": 0.0,
+        "channel": "tool"
+    },
+    "time_1013": {
+        "dataset_path": "/workspace/llm/dataset/datasetfinetuning/dataset/dataset_toolcall/time_1013.jsonl",
+        "preprocess": "custom",
+        "split_dataset_ratio": 0.0,
+        "channel": "tool"
+    },
+    "self_condition": {
+        "dataset_path": "/workspace/llm/dataset/datasetfinetuning/dataset/self_condition/self_condition_train.jsonl",
+        "preprocess": "auto",
+        "dataset_sample": 1000,
+        "split_dataset_ratio": 0.0,
+        "channel": "self_condition"
+    },
+    "wild_chat_en_zh_dedup_v3": {
+        "dataset_path": "/workspace/llm/dataset/datasetfinetuning/dataset/dataset_opensource/wild_chat_en_zh_dedup_v3/wild_chat_en_zh_dedup_v3_filter_train_4520.jsonl",
+        "preprocess": "auto",
+        "dataset_sample": 2000,
+        "split_dataset_ratio": 0.0,
+        "channel": "chat"
+    }
+}

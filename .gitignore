@@ -1,0 +1,17 @@
+**/logs/*
+**/outputs/*
+**/swanlog/*
+**/output/*
+**/result/*
+outpouts
+**.log   
+**.csv
+logs/
+output/*
+outputs/*
+swanlog/
+__pycache__/
+**/__pycache__/
+*.pyc
+.DS_Store
+upstream_project/

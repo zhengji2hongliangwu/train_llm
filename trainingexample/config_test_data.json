@@ -1,0 +1,86 @@
+{
+    "bench_weather": {
+        "dataset_path": "/workspace/llm/dataset/datasetfinetuning/dataset/benchmark/bench_toolcall/bench_weather.jsonl",
+        "preprocess": "custom",
+        "split_dataset_ratio": 0.0,
+        "channel": "tool"
+    },
+    "bench_move": {
+        "dataset_path": "/workspace/llm/dataset/datasetfinetuning/dataset/benchmark/bench_toolcall/bench_move.jsonl",
+        "preprocess": "custom",
+        "split_dataset_ratio": 0.0,
+        "channel": "tool"
+    },
+    "bench_stop": {
+        "dataset_path": "/workspace/llm/dataset/datasetfinetuning/dataset/benchmark/bench_toolcall/bench_stop.jsonl",
+        "preprocess": "custom",
+        "split_dataset_ratio": 0.0,
+        "channel": "tool"
+    },
+    "bench_mute": {
+        "dataset_path": "/workspace/llm/dataset/datasetfinetuning/dataset/benchmark/bench_toolcall/bench_mute.jsonl",
+        "preprocess": "custom",
+        "split_dataset_ratio": 0.0,
+        "channel": "tool"
+    },
+    "bench_move_distance": {
+        "dataset_path": "/workspace/llm/dataset/datasetfinetuning/dataset/benchmark/bench_toolcall/bench_move_distance.jsonl",
+        "preprocess": "custom",
+        "split_dataset_ratio": 0.0,
+        "channel": "tool"
+    },
+    "bench_rotation": {
+        "dataset_path": "/workspace/llm/dataset/datasetfinetuning/dataset/benchmark/bench_toolcall/bench_rotation.jsonl",
+        "preprocess": "custom",
+        "split_dataset_ratio": 0.0,
+        "channel": "tool"
+    },
+    "bench_safety_reminder": {
+        "dataset_path": "/workspace/llm/dataset/datasetfinetuning/dataset/benchmark/bench_toolcall/bench_safety_reminder.jsonl",
+        "preprocess": "custom",
+        "split_dataset_ratio": 0.0,
+        "channel": "tool"
+    },
+    "bench_time": {
+        "dataset_path": "/workspace/llm/dataset/datasetfinetuning/dataset/benchmark/bench_toolcall/bench_time.jsonl",
+        "preprocess": "custom",
+        "split_dataset_ratio": 0.0,
+        "channel": "tool"
+    },
+    "bench_initialize": {
+        "dataset_path": "/workspace/llm/dataset/datasetfinetuning/dataset/benchmark/bench_toolcall/bench_initialize.jsonl",
+        "preprocess": "custom",
+        "split_dataset_ratio": 0.0,
+        "channel": "tool"
+    },
+    "bench_navigation": {
+        "dataset_path": "/workspace/llm/dataset/datasetfinetuning/dataset/benchmark/bench_toolcall/bench_navigation.jsonl",
+        "preprocess": "custom",
+        "split_dataset_ratio": 0.0,
+        "channel": "tool"
+    },
+    "bench_security_check": {
+        "dataset_path": "/workspace/llm/dataset/datasetfinetuning/dataset/benchmark/bench_toolcall/bench_security_check.jsonl",
+        "preprocess": "custom",
+        "split_dataset_ratio": 0.0,
+        "channel": "tool"
+    },
+    "bench_gesture": {
+        "dataset_path": "/workspace/llm/dataset/datasetfinetuning/dataset/benchmark/bench_toolcall/bench_gesture.jsonl",
+        "preprocess": "custom",
+        "split_dataset_ratio": 0.0,
+        "channel": "tool"
+    },
+    "bench_self_condition": {
+        "dataset_path": "/workspace/llm/dataset/datasetfinetuning/dataset/benchmark/self_condition/self_condition_test.jsonl",
+        "preprocess": "auto",
+        "split_dataset_ratio": 0.0,
+        "channel": "self_condition"
+    },
+    "bench_commensense": {
+        "dataset_path": "/workspace/llm/dataset/datasetfinetuning/dataset/benchmark/bench_commensense_chat/bench_commensense.jsonl",
+        "preprocess": "auto",
+        "split_dataset_ratio": 0.0,
+        "channel": "chat"
+    }
+}

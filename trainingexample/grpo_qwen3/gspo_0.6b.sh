@@ -1,0 +1,53 @@
+
+CUDA_VISIBLE_DEVICES=4,5 \
+NPROC_PER_NODE=2 \
+swift rlhf \
+    --custom_register_path dataset.py \
+    --rlhf_type grpo \
+    --model /workspace/llm/models/Qwen/Qwen3-0.6B \
+    --dataset move_distance_1013 stop_1013 mute_1013 navigation_1013 gesture_1013 weather_1013 move_1013 safety_reminder_1013 security_check_1013 rotation_1013 initialize_1013 time_1013 self_condition wild_chat_en_zh_dedup_v3 \
+    --load_from_cache_file true \
+    --torch_dtype bfloat16 \
+    --split_dataset_ratio 0.05 \
+    --beta 0.0 \
+    --epsilon 3e-4 \
+    --epsilon_high 4e-4 \
+    --steps_per_generation 4 \
+    --importance_sampling_level sequence \
+    --num_train_epochs 5 \
+    --per_device_train_batch_size 1 \
+    --gradient_accumulation_steps 16 \
+    --num_generations 8 \
+    --train_type full \
+    --external_plugins plugin.py \
+    --reward_funcs bleu,rougeL \
+    --use_vllm true \
+    --vllm_mode colocate \
+    --vllm_gpu_memory_utilization 0.25 \
+    --vllm_max_model_len 8192 \
+    --max_completion_length 2048 \
+    --offload_optimizer true \
+    --offload_model false \
+    --sleep_level 1 \
+    --save_steps 1000 \
+    --learning_rate 1e-6 \
+    --save_total_limit 2 \
+    --logging_steps 5 \
+    --warmup_ratio 0.05 \
+    --dataloader_num_workers 4 \
+    --deepspeed zero3 \
+    --log_completions true \
+    --eval_strategy 'steps' \
+    --eval_steps 5 \
+    --per_device_eval_batch_size 4 \
+    --eval_use_evalscope true \
+    --eval_dataset bench_weather bench_move bench_stop bench_mute bench_move_distance bench_rotation bench_safety_reminder bench_time bench_initialize bench_navigation bench_security_check bench_gesture bench_self_condition bench_commensense \
+    --eval_limit 160 \
+    --swanlab_token YOUR_SWANLAB_TOKEN \
+    --swanlab_project test \
+    --swanlab_workspace demo \
+    --swanlab_exp_name 'qwen3-0.6B-gspo' \
+    --swanlab_mode 'cloud' \
+    --swanlab_lark_webhook_url 'YOUR_LARK_WEBHOOK_URL' \
+    --swanlab_lark_secret 'YOUR_LARK_SECRET' \
+    --report_to 'swanlab' \
